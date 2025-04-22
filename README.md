@@ -1,42 +1,76 @@
 <h1>
-    Schedular App
+    Scedular App
 </h1>
 
-<br>
+Will help you schedule events with friends add them and check location.
+
+
+
+
+
 <h2>
-    Brainstorming
+  MVP features:  
 </h2>
 
+- Must be able to add event with location and time
+- use google maps api maybe
+<h2>
+    Pages:
+</h2>
+ 
+- Main page
+- events page with toggale
+- Event detail page
+- maybe event edit page
 
-<h3>
-    Main Idea
+
+<h2>
+    Future Plans:
+    
+</h2>
+
+- Have maps api integrated for planning
+- have user accounts and login
+- Able to post onto other sites
+
+<h2>
+    Product Spec
+</h2>
+
+ <h3>
+    1. User Stories (Required and Optional)
 </h3>
 
-I had an App Idea from the beginning and wanted to make an app that helps schedule trips and vacations with groups of friends.
+- My friends often have issues when it comes to planning when to leave, when to plan, who to inculde and how to keep up with everyone. Causing us to make 3 group chats and no plan. 
+
+This app was designed for situations like these.
 
 <h3>
-    Areas of Project:
+    2. Screen Archetypes
 </h3>
 
-- Travel
-- Productivity
-- Social
+- Main page
+    - The main page containg your current planned trips and some visuals.
+- events page with toggle
+    - Trips that are currently active that can be toggled complete
+- Event detail page
+    - Info about the trip time, place, people and info
+- (Optional) event edit page
+    - Editing the event: adding/removing people and more
 
 <h3>
-    App Evaluation
+    3. Navigation
 </h3>
+Tab Navigation (Tab to Screen)
 
-**Mobile:** The experience is uniquely mobile due to how it sends notifications, uses contacts to connect people and also uses Maps as well.
+- Main page  
+            |-> current events
+            | -> completed events  |
+            |-> create event page
+            
+- events page with toggale -> events detail page
+- Event detail page -> event edit page
 
-**Story:** Just a joy in spending time with friends and whatever makes that easier can definitly help alot of people.
-
-**Market**: The scope is very large cause we make plans and want to travel at all times and things that organize and connect people through this are very useful.
-
-**Habit**: Being able to send timers to your friends is something I hope to implement
-
-**Scope**: The app might be slightly challenging to make but I hope to do my best in getting my **MVP** made.
-
-
-
+- maybe event edit page -> event detail page (save button)
 
 
