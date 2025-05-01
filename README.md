@@ -1,76 +1,98 @@
-<h1>
-    Scedular App
-</h1>
+<h1>**Scheduler App**</h1>
 
-Will help you schedule events with friends add them and check location.
+<h2>Table of Contents</h2>
 
-
-
-
-
-<h2>
-  MVP features:  
-</h2>
-
-- Must be able to add event with location and time
-- use google maps api maybe
-<h2>
-    Pages:
-</h2>
- 
-- Main page
-- events page with toggale
-- Event detail page
-- maybe event edit page
-
+- Overview
+- Product Spec
+- Wireframes
+- Schema
 
 <h2>
-    Future Plans:
-    
+    Overview
 </h2>
 
-- Have maps api integrated for planning
-- have user accounts and login
-- Able to post onto other sites
+**Description**
+
+Scheduler App is a mobile travel and event coordination tool that helps users plan events with friends by adding shared events with time and location. The app integrates with Google Maps to provide directions and real-time location tracking. It's ideal for friend groups who struggle with event planning and coordinating meetups in one centralized app.
+
+<h2>
+    App Evaluation
+</h2>
+
+- Category: Travel / Productivity
+
+- Mobile: Makes use of mobile features such as Google Maps API, real-time toggles, and location-based services.
+
+- Story: Helps solve the common problem of disorganized group planning with a clear and useful interface.
+
+- Market: Useful for friend groups, college students, and social planners — particularly niche, but highly valuable.
+
+- Habit: Users are expected to check back frequently to update plans, toggle events, or view schedules.
+
+- Scope: MVP includes event creation, toggling, and viewing event details; future plans involve user accounts and map integration.
 
 <h2>
     Product Spec
 </h2>
 
- <h3>
-    1. User Stories (Required and Optional)
-</h3>
+1. User Stories
 
-- My friends often have issues when it comes to planning when to leave, when to plan, who to inculde and how to keep up with everyone. Causing us to make 3 group chats and no plan. 
+**Required Must-have Stories**
 
-This app was designed for situations like these.
+- Users can create a new event with a title, date, time, and location.
 
-<h3>
-    2. Screen Archetypes
-</h3>
+- Users can view a list of upcoming events.
 
-- Main page
-    - The main page containg your current planned trips and some visuals.
-- events page with toggle
-    - Trips that are currently active that can be toggled complete
-- Event detail page
-    - Info about the trip time, place, people and info
-- (Optional) event edit page
-    - Editing the event: adding/removing people and more
+- Users can toggle events as "complete".
 
-<h3>
-    3. Navigation
-</h3>
+- Users can view event details including time, location, and attendees.
+
+- Navigation between pages (main → events → event detail).
+
+**Optional Nice-to-have Stories**
+
+* Integrate Google Maps to show event location.
+
+* Ability to edit or delete events.
+ 
+* User login and authentication.
+ 
+* Share events to social platforms.
+ 
+* Notify users about upcoming events via push notifications.
+ 
+**2. Screen Archetypes**
+
+**Main Page**
+
+Displays a summary of upcoming and completed events.
+
+**Events Page**
+
+Lists active events with a toggle for completion status.
+
+**Event Detail Page**
+
+Shows full event information: time, location, attendees.
+
+(Optional) **Event Edit Page**
+
+Allows editing of event details, changing participants, and location.
+
+**3. Navigation**
+
 Tab Navigation (Tab to Screen)
+Main Tab → Main Page (home feed of events)
 
-- Main page  
-            |-> current events
-            | -> completed events  |
-            |-> create event page
-            
-- events page with toggale -> events detail page
-- Event detail page -> event edit page
+Events Tab → Event List Page
 
-- maybe event edit page -> event detail page (save button)
+Create Tab → Event Creation Page
 
+Flow Navigation (Screen to Screen)
+Main Page → Events Page
 
+Events Page → Event Detail Page
+
+Event Detail Page → (Optional) Event Edit Page
+
+Event Edit Page → Event Detail Page (via Save)
